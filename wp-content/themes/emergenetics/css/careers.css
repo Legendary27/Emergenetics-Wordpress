@@ -1,0 +1,73 @@
+.career-header{
+background: url("/images/careers/bg.jpg") repeat scroll 50% 0px transparent;
+height: 450px;
+width: 100%;
+margin-top: -130px;
+position: relative;
+z-index:-1;
+text-align: center;
+
+}
+.career-header h1{
+color: #fff;
+font-family: 'Gotham SSm A', 'Gotham SSm B', helvetica, arial, sans-serif;
+}
+.career-title h1{
+padding-top: 200px;
+font-size:6em;
+font-weight: 800;
+line-height: 1;
+
+}
+.career-title p{
+width: 90%;
+max-width: 650px;
+margin: 0 auto;
+position: relative;
+font-size: 1.5em;
+color: #fff;
+font-family: 'ff-tisa-web-pro', 'Gotham SSm A', 'Gotham SSm B', helvetica, arial, sans-serif;
+line-height: 1.2;
+
+}
+.career-highlight{
+width: 70%;
+float: left;
+height: 120px;
+}
+
+.career-menu{
+position: relative;
+float: right;
+margin-top: 40px;
+width: 27%;
+}
+
+.career-container{
+margin: 0 auto;
+margin-top: 0px;
+width: 90%;
+max-width: 960px;
+}
+.career-content{
+
+height: 100%;
+position: relative;
+width: 100%;
+padding-bottom:40px;
+}
+#positions{
+	padding-top: 150px;
+	margin-top: -110px;
+}
+#positions ul li{
+background:url(../images/li-circle2.png) no-repeat left 6px;
+margin-left: 20px;
+padding-left: 10px;
+
+
+}
+#positions ul{
+margin-top: 10px;
+margin-bottom: 10px;
+}

@@ -1,0 +1,84 @@
+/*
+* Supernav V1.0
+* Copyright 2014, Farukul Islam Rana
+* 10/02/2014
+*/
+
+/* Table of Content of This "effects.css" File
+==================================================
+	#slide effect
+	#fade effect
+
+
+/*   #slide effect
+==================================================*/
+
+
+.slide ul, .slide li > div {
+	visibility: hidden;
+	display: block !important;
+	-webkit-transform: translate3d(0, 50px, 0);
+	-moz-transform: translate3d(0, 50px, 0);
+	-o-transform: translate3d(0, 50px, 0);
+	-ms-transform: translate3d(0, 50px, 0);
+	transform: translate3d(0, 50px, 0);
+	-webkit-transition: opacity .2s ease-in, visibility 0s linear .2s, -webkit-transform .2s linear;
+	-moz-transition: opacity .2s ease-in, visibility 0s linear .2s, -moz-transform .2s linear;
+	-o-transition: opacity .2s ease-in, visibility 0s linear .2s, -o-transform .2s linear;
+	-ms-transition: opacity .2s ease-in, visibility 0s linear .2s, -ms-transform .2s linear;
+	transition: opacity .2s ease-in, visibility 0s linear .2s, transform .2s linear;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+.slide li:hover > ul,  .slide li:hover > div {
+	visibility: visible;
+	-webkit-transform: translate3d(0, 0px, 0);
+	-moz-transform: translate3d(0, 0px, 0);
+	-o-transform: translate3d(0, 0px, 0);
+	-ms-transform: translate3d(0, 0px, 0);
+	transform: translate3d(0, 0px, 0);
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	-ms-transition-delay: 0s;
+	transition-delay: 0s;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+
+/*  #fade effect
+==================================================*/
+
+.fade ul,  .fade li > div {
+	visibility: hidden;
+	display: block !important;
+	-webkit-transition: opacity .2s ease-in, visibility 0s linear .2s;
+	-moz-transition: opacity .2s ease-in, visibility 0s linear .2s;
+	-o-transition: opacity .2s ease-in, visibility 0s linear .2s;
+	-ms-transition: opacity .2s ease-in, visibility 0s linear .2s;
+	transition: opacity .2s ease-in, visibility 0s linear .2s;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+.fade li:hover > ul,  .fade li:hover > div {
+	visibility: visible;
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	-ms-transition-delay: 0s;
+	transition-delay: 0s;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+
+
+
+

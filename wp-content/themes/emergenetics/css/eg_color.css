@@ -1,0 +1,18 @@
+/* #EG Color Styles
+================================================== */
+
+#footer { border-top:5px solid #5c4d67; }
+#headline2 {background-color: #959595;}
+#top-head { border-bottom:4px solid #fbfbfb; background:#f8f8f8; }
+#nav a { border-top-color:#fbfbfb; }
+.orange {color:#f5811f;}
+
+/* #hero { border-top:4px solid #eddff2; border-bottom:4px solid #eddff2; } */
+
+.dark.bluebox, .l1-s1, h4.tit4blg span { background:#7f3f98; }
+ul#main-port li { background-color:#d3ceb5;}
+ul#main-port li:nth-child(even) { background-color:#e3dfc8;}
+ul#main-port li.active9 { background:#f7f2d8; border-bottom-color:#7f3f98; }
+.jcarousel-next, .jcarousel-prev { background-color:#4f4459;  }
+.jcarousel-next-disabled, .jcarousel-next-disabled:hover,
+.jcarousel-prev-disabled, .jcarousel-prev-disabled:hover {	background-color: #e5eae5;	cursor: auto; }

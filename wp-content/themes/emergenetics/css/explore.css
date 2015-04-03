@@ -1,0 +1,56 @@
+/*  #Explore Menu
+================================================== */
+.explore_header { width:100%; height:50px; background-color:#404041; position:absolute; top:0px; left:0px}
+.explore_nav { width:100%; height:40px; background-color:#fff;}
+.explore_selection { position:absolute; top:50px; left:0px; background-color:inherit; width:100%; height:10px; margin-top:-10px}
+.explore_right{ float:right; margin:0 auto; padding:5px; height:30px; width:30px}
+.explore_body{ background-image: none}
+
+.explore_nav { position:relative; margin-left:0px; margin-bottom:0px}
+.explore_nav ul{display:inline-block; margin:0px; margin-left:-3px}
+.explore_nav ul li{visibility:hidden}
+.explore_nav li{display:inline-block; margin-right:-3px; margin-bottom:0px}
+.explore_nav a li {position:relative}
+.explore_nav a { background-color:transparent}
+.explore_nav a li img{width:inherit; height:inherit}
+a:hover li #home{background:url(images/logo.fw.png)}
+/*.explore_nav a:hover + ul li{visibility:visible}*/
+
+.explore_nav .str:hover li{ background-color:#009943}
+.explore_nav .ana:hover li{ background-color:#0032A0}
+.explore_nav .con:hover li{ background-color:#FEC524}
+.explore_nav .soc:hover li{ background-color:#D0112B}
+.explore_nav .exp:hover li{ background-color:#8446AD}
+.explore_nav .asrt:hover li{ background-color:#A876C9}
+.explore_nav .flex:hover li{ background-color:#CFB5E1}
+
+.explore_menu{width:71px; height:40px}
+.str{ background-color:#009943}
+.ana{ background-color:#0032A0}
+.con{ background-color:#FEC524}
+.soc{ background-color:#D0112B}
+.exp{ background-color:#8446AD}
+.asrt{ background-color:#A876C9}
+.flex{ background-color:#CFB5E1}
+
+/*----------- explore buttons ---------------*/
+.field { position:absolute; width: 125px; height: 125px; visibility:hidden}
+.circle{ border-radius: 50%}
+.explore_comment{ position:absolute; width: 226px; height: 226px; visibility:hidden; font-family: 'gotham_bookregular'; text-align:center; vertical-align:middle; font-size: 22px; line-height: 226px; font-weight:bold;-webkit-transition: background-color 500ms ease; background-color:none}
+.explore_comment::after{ color:#404041; content:"SELECT AN ICON"}
+#button_container { width: 100%; height: 550px; position:relative; padding-bottom:20px}
+#button_container .str:hover ~ .explore_comment{ -webkit-transition: background-color 500ms ease; background-color:#009943}
+#button_container .ana:hover ~ .explore_comment{ -webkit-transition: background-color 500ms ease;background-color:#0032A0}
+#button_container .con:hover ~ .explore_comment{ -webkit-transition: background-color 500ms ease;background-color:#FEC524}
+#button_container .soc:hover ~ .explore_comment{ -webkit-transition: background-color 500ms ease;;background-color:#D0112B}
+#button_container .exp:hover ~ .explore_comment{ -webkit-transition: background-color 500ms ease;background-color:#8446AD}
+#button_container .asrt:hover ~ .explore_comment{ -webkit-transition: background-color 500ms ease;background-color:#A876C9}
+#button_container .flex:hover ~ .explore_comment{ -webkit-transition: background-color 500ms ease;background-color:#CFB5E1}
+#button_container .str:hover ~ .explore_comment::after{color:#fff; content:"STRUCTURAL"}
+#button_container .ana:hover ~ .explore_comment::after{color:#fff; content:"ANALYTICAL"}
+#button_container .con:hover ~ .explore_comment::after{color:#fff; content:"CONCEPTUAL"}
+#button_container .soc:hover ~ .explore_comment::after{color:#fff; content:"SOCIAL"}
+#button_container .exp:hover ~ .explore_comment::after{color:#fff; content:"EXPRESSIVENESS"}
+#button_container .asrt:hover ~ .explore_comment::after{color:#fff; content:"ASSERTIVENESS"}
+#button_container .flex:hover ~ .explore_comment::after{color:#fff; content:"FLEXIBILITY"}
+

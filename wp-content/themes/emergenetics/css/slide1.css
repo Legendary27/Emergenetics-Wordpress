@@ -1,0 +1,147 @@
+
+			
+			.ls-layer p {
+				padding: 0px 10px;				
+				line-height: 40px;
+				box-shadow: 0px 4px 10px -5px black;
+				text-shadow: none;
+				font-size: 16px;
+				float:left;
+
+			}
+			.ls-layer h3, .ls-layer h1 { color:#fff; padding:5px 10px;}
+			
+			h1.l1-s0 {
+				color: #000000;
+				white-space: nowrap;
+				left:0;
+			}
+
+			.l1-s1 {
+				height: 160px;
+				color: white;
+				background: #0093d0;
+				opacity: .95;
+				filter: alpha(opacity=90);
+				width: 280px;
+				text-align: left;
+				padding: 10px;
+				left: 0;
+				letter-spacing:-0.05em;
+				white-space: nowrap;
+			}
+			
+			.l1-s2 {
+				height: 50px;
+				color: white;
+				opacity: .94;
+				filter: alpha(opacity=90);
+				width: 300px;
+				text-align: left;
+				left: 0;
+				letter-spacing:-0.05em;
+				white-space: nowrap;
+			}
+			
+			
+			h3.l2-s1 {
+				color: #000000;
+				white-space: nowrap;
+				left:0;
+				letter-spacing:-0.05em;
+				text-align: left;
+			}
+			
+			h1.l2-s1 { 
+				color: #000000;
+				white-space: nowrap;
+				left:0; 
+				letter-spacing:-0.05em;
+				text-align: left;
+				text-transform: uppercase;
+			}
+			
+			.l3-s1 {
+				width:114px;
+				padding:8px;
+				color: #000000;
+				background: #ffde17;
+				left: 0;
+				text-align: left;
+			}
+			
+			h2.l3-s2 {
+				color: #000000;
+				white-space: nowrap;
+				left:0;
+				letter-spacing:-0.05em;
+				text-align: left;
+			}
+			
+			.l3-s3 {
+				color: #000000;
+				white-space: nowrap;
+				left:0;
+				letter-spacing:-1px;
+				text-align: left;
+			}
+			
+			h3.l4-s1 {
+				color: #000000;
+				white-space: nowrap;
+				left:0;
+				letter-spacing:-0.05em;
+				text-align: left;
+				background: #f2d03b;
+				opacity: .85;
+				filter: alpha(opacity=85);
+				width: 425px;
+				padding: 5px;
+			}
+			
+			h1.l4-s1 { 
+				color: #000000;
+				white-space: nowrap;
+				left:0; 
+				letter-spacing:-0.05em;
+				text-transform: uppercase;
+				text-align: left;
+				background: #f2d03b;
+				opacity: .85;
+				filter: alpha(opacity=85);
+				width: 350px;
+				padding: 5px;
+			}
+			
+			h5.l4-s1 {
+				color: #000000;
+				white-space: nowrap;
+				left:0;
+				letter-spacing:-0.05em;
+				text-align: right;
+				background: #000000;
+				opacity: .85;
+				filter: alpha(opacity=85);
+				width: 160px;
+				padding: 5px;
+			}			
+			
+			
+			.banner_link {
+				color: #ffffff;
+				text-decoration: none;
+			}
+
+			a.banner_link {
+				color: #ffffff;
+			}
+			
+			a.banner_link:hover {
+				color: #ff9900;
+			}
+			
+			@media screen and (max-width: 1024px) {
+			
+			.ls-layer h1, .ls-layer h3 { left:0; margin-left:100px;}
+			
+			}
